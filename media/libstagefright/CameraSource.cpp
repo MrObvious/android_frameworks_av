@@ -104,7 +104,7 @@ static int32_t getColorFormat(const char* colorFormat) {
     }
 
     if (!strcmp(colorFormat, CameraParameters::PIXEL_FORMAT_NV12)) {
-        return OMX_COLOR_FormatYUV420PackedSemiPlanar;
+        return OMX_COLOR_FormatYUV420SemiPlanar;
     }
 
     if (!strcmp(colorFormat, CameraParameters::PIXEL_FORMAT_YUV422SP)) {
